@@ -27,7 +27,9 @@ public class Cat {
 		int x=catX;
 		int y=catY;
 		// Draw the head
-		g2.setColor(Color.blue); // Change #1 (Anand): changed color from black to blue
+		
+		//Change#6: Finalizing our garfield transition. from blue to orange.
+		g2.setColor(Color.orange); // Change #1 (Anand): changed color from black to blue
 		g2.fillOval(x, y, HEAD_DIMENSION, HEAD_DIMENSION);
 		// Draw the eyes
 		g2.setColor(Color.green);
