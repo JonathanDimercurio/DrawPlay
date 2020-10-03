@@ -39,7 +39,9 @@ public class Cat {
 		//Change #2: Removal of right eye from cat face. Jonathan.
 		//g2.fillOval(x, y, EYE_WIDTH, EYE_HEIGHT);
 		// Draw the mouth
-		g2.setColor(Color.pink);
+		
+		//Change #4: Mouth colour change. Jonathan
+		g2.setColor(Color.red);
 		x = catX + MOUTH_X;
 		y = catY + MOUTH_Y;
 		g2.fillOval(x, y, MOUTH_WIDTH, MOUTH_HEIGHT);
